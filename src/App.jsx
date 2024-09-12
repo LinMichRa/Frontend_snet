@@ -1,10 +1,12 @@
+import { Routing } from "./router/Routing"
 
-function App(){
+
+function App() {
 
   return (
-    <>
-      <h1>Frontend Red Social</h1>
-    </>
+    <div className="layout">
+      <Routing />
+    </div>
   )
 }
 
